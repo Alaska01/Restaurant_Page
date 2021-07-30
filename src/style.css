@@ -1,3 +1,4 @@
-body {
-  color: red;
+.hello {
+  color: green;
+  background: url('./icon.png');
 }
