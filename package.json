@@ -1,25 +1,9 @@
+
 {
   "name": "restaurant_page",
   "version": "1.0.0",
-  "description": "## On Development Branch",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "css-loader": "^6.2.0",
-    "eslint": "^7.31.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4",
-    "html-loader": "^2.1.2",
-    "html-webpack-plugin": "^5.3.2",
-    "style-loader": "^3.2.1",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.20.1",
-    "webpack": "^5.46.0",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^1.16.5"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
@@ -27,15 +11,24 @@
     "watch": "webpack --mode development --watch",
     "start": "webpack-cli serve --mode development"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alaska01/Restaurant_Page.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alaska01/Restaurant_Page/issues"
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.0",
+    "webpack-cli": "^4.7.2"
   },
-  "homepage": "https://github.com/Alaska01/Restaurant_Page#readme"
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "html-webpack-plugin": "^5.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.20.1"
+  }
 }
