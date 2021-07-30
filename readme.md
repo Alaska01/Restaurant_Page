@@ -24,7 +24,7 @@ To get a copy up and running follow these simple example steps:-
 
 
 ### Live Demo
-<a href="https://xyz.html">Click here</div>
+<a href="https://aye-restaurant-page.netlify.app/">Click here</div>
 
 
 ## Author
